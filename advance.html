@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-light">
+        <div class="container-fluid">
+
+            <a class="navbar-brand" href="https://passport.baidu.com/v2/?login&tpl=mn&u=http%3A%2F%2Fwww.baidu.com%2F&sms=5">
+                <img src="p1.png" alt="" width="30" height="30" class="d-inline-block align-top">
+                <span class=" fs-1">登录</span>
+            </a>
+
+
+            <div class="header">
+
+                <div class="right" >
+                <span class="r_btn1" >
+                    <a href="index.html" >回到主页</a>
+                </span>
+                
+                </div>
+            </div>
+
+        </div>
+    </nav>
+
+
+
+    <div class="container">
+        <div class="mt-4"></div>
+
+        <div class="row justify-content-center">
+            <a href="https://www.baidu.com" id="a1">
+                <img src="logo.png" width="280" height="120">
+            </a><br />
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-12 col-lg-6 col-sm-10">
+
+
+                <form action="https://www.baidu.com">
+
+
+                    <div>
+                        <label for="all-words" class="col-form-label">包含全部关键词:</label>
+                        <input id="all-words" class="form-control" type="text" name="q1">
+
+
+                    </div>
+                    <div>
+                        <label for="exact-phrase" class="col-form-label">包含完整关键词:</label>
+                        <input id="exact-phrase" class="form-control" type="text" name="q2">
+
+                    </div>
+                    <label for="any-words" class="col-form-label">包含任意关键词:</label>
+                    <input id="all-words" class="form-control" type="text" name="q3">
+                    <div>
+                    </div>
+                    <div>
+                        <label for="none-words" class="col-form-label">不包括关键词:</label>
+                        <input id="none-words" class="form-control w-100" type="text" name="q4">
+                    </div>
+
+
+
+
+                    <div class="row w-100 mx-auto mt-4 justify-content-center">
+
+                        <div class="col-auto p-1">
+                            <input class="no-border p-2 text-dark rounded" type="submit" value="百度一下">
+                        </div>
+
+
+                    </div>
+                </form>
+
+
+            </div>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>百度一下，你就知道</title>
+    <style>
+
+        .bg{background-image:url(background.jpg);background-repeat:no-repeat;background-size: cover;}
+        .box{text-align: right;height: 10px;}
+        .head,.foot{font-size: 13px;}
+        .head_left{position: absolute;top: 20px;left: 17px;}
+        .head_right{position: absolute;top: 20px;right: 30px;}
+        .head a{text-decoration:none;color: black;cursor: pointer;}
+        .head a:hover{color: rgb(73, 104, 228);}
+
+        .body{text-align: center;position: relative;}
+        img{height: 130px;margin-top: 113px;margin-right: 16px;cursor: pointer;}
+        .text{width: 546px;height: 38px;position:absolute; margin: 15px -335px;border-radius: 10px 0 0 10px;border-color: rgb(86, 103, 236);}
+        .submit{width: 108px;height: 44px;color: white;background-color: rgb(38, 18, 215);cursor: pointer;position: absolute;top: 0;left: 0;right: 0;bottom: 0;margin: 262px 923px;
+        border-radius: 0 10px 10px 0;font-size: 17px;}
+        .submit:hover{background-color:  rgb(52, 66, 218);}
+
+    </style>
+</head>
+<body>
+    <body class="bg">
+      
+        <div class="box">
+            <a href="index.html" >回到主页</a>
+        </div>
+
+    <div class="body">
+
+        <div class="img">
+            <img src="p_logo.png">
+        </div>
+        
+        <form action="https://image.baidu.com/">
+            <input type="text" class="text"name="q">
+            <input type="submit" value="百度一下" class="submit">
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>百度一下，你就知道</title>
+    <style>
+
+        .header{height: 60px;line-height:60px;text-align: center;}   
+        .header .right{position:absolute;right:0px;top:0px;z-index:100;padding-right:24px;float:right;}
+        .header .right .r_btn1{display:inline-block;vertical-align:top;cursor:pointer;}
+        .box{text-align: right;height: 10px;}
+
+        .head,.foot{font-size: 13px;}
+        .head_left{position: absolute;top: 20px;left: 17px;}
+        .head_right{position: absolute;top: 20px;right: 30px;}
+        .head a{text-decoration:none;color: black;cursor: pointer;}
+        .head a:hover{color:  rgb(44, 97, 255);}
+
+        .body{text-align: center;position: relative;}
+        img{height: 130px;margin-top: 113px;margin-right: 16px;cursor: pointer;}
+        .text{width: 546px;height: 38px;position:absolute; margin: 15px -335px;border-radius: 10px 0 0 10px;border-color:  rgb(44, 97, 255);}
+        .submit{width: 108px;height: 44px;color: white;background-color:  rgb(44, 97, 255);cursor: pointer;position: absolute;top: 0;left: 0;right: 0;bottom: 0;margin: 262px 923px;
+        border-radius: 0 10px 10px 0;font-size: 17px;}
+        .submit:hover{background-color:  rgb(44, 97, 255);}
+
+    </style>
+</head>
+<body>
+    <div class="header">
+
+        <div class="right" >
+        <span class="r_btn1" >
+            <a href="advance.html" >高级搜索</a>
+            <a href="picture.html" >图片搜索</a>
+        </span>
+        
+        </div>
+    </div>
+       
+         
+    <div class="body">
+        <img src="logo.png">
+        <form target="_blank" method="get" action="https://www.baidu.com/">
+            <input type="text" class="text"name="q">
+            <input type="submit" value="百度一下" class="submit">
+        </form>
+    </div>
+
+   
+</body>
+</html>
